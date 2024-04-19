@@ -1,0 +1,16 @@
+.TextButton {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #CF7B5A;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  padding: 10px 16px;
+  border-radius: 16px;
+
+  &:hover {
+    background: #ffffff15;
+  }
+
+}

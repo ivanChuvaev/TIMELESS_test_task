@@ -1,0 +1,14 @@
+.Searchbar {
+  width: 332px;
+  height: 52px;
+  padding: 0px 14px;
+  background-color: #1A1C23;
+  border-radius: 16px;
+  border: none;
+  color: inherit;
+  font-size: inherit;
+
+  &:focus {
+    outline: 2px solid #8C8988;
+  }
+}

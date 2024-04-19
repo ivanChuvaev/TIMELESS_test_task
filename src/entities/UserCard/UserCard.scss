@@ -1,0 +1,85 @@
+.UserCard {
+  width: 332px;
+  height: 196px;
+  background: #1A1C23;
+  border-radius: 16px;
+  padding: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.UserCard__delete-button {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #CF7B5A33;
+  top: -1px;
+  right: -1px;
+  border-radius: 0px 16px 0px 16px;
+  padding: 10px;
+
+  &:hover {
+    background-color: #ffffff0e;
+  }
+}
+
+.UserCard__delete-button-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.UserCard__main-info {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.UserCard__main-info-image {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+
+.UserCard__main-info-text-lines {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 0;
+  // width: 100%;
+}
+
+.UserCard__main-info-text-lines-fullname {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.UserCard__main-info-text-lines-email {
+  display: inline;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.UserCard__extra-info {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 16px;
+  row-gap: 12px;
+}
+
+.UserCard__extra-info-field-label {
+  font-size: 12px;
+  color: #8C8988;
+}
+
+.UserCard__extra-info-field-value {
+  display: inline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  min-width: 0;
+  white-space: nowrap;
+}

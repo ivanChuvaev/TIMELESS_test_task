@@ -1,0 +1,46 @@
+.Statistic {
+  width: 332px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  background-color: #1E2027;
+  border-radius: 16px;
+  gap: 24px;
+}
+
+.Statistic__user-count {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.Statistic__divider {
+  width: 100%;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 1px solid #303238;
+}
+
+.Statistic__group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.Statistic__group-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.Statistic__group-fields {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 16px;
+  row-gap: 12px;
+}
+
+.Statistic__group-field-label {
+  color: #8C8988;
+}

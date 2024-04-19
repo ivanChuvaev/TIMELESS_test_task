@@ -1,0 +1,13 @@
+.UserCard_selected {
+  outline: 1px solid #CF7B5A33;
+  outline-offset: -1px;
+  background-color: #1E2027;
+
+  .UserCard__delete-button {
+    display: block;
+  }
+
+  .UserCard__main-info-fullname {
+    color: #CF7B5A;
+  }
+}
